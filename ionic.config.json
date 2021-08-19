@@ -1,5 +1,7 @@
 {
   "name": "twitterclone",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
