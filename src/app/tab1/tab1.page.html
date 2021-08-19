@@ -1,17 +1,26 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 1
+    <ion-title class="title-nav" slot="start">
+      Hi, Diego!
     </ion-title>
+    <ion-avatar slot="end" class="avatar ion-margin-end">
+      <ion-img src="https://pbs.twimg.com/profile_images/1387084264014024705/m_y0DmIE.jpg"></ion-img>
+    </ion-avatar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <app-card></app-card>
+  <app-card></app-card>
+  <app-card></app-card>
+  <app-card></app-card>
+  <app-card></app-card>
+  <app-card></app-card>
+  <app-card></app-card>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="secondary">
+      <ion-icon name="flash-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>

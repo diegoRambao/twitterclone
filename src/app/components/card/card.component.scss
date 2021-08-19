@@ -1,0 +1,22 @@
+ion-card {
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.description {
+  margin-top: 0;
+  color: #616161d9;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+.row-card {
+  display: flex;
+  gap: 15px;
+}
+
+ion-label {
+  margin-top: 0;
+}
